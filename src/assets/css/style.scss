@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Movavi Grotesque Black";
+  src: url("@/assets/fonts/Movavi Grotesque Black.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("@/assets/fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Changa One";
+  src: url("@/assets/fonts/ChangaOne-Regular.ttf");
+}
+$color_2: #fff;
+$font-family_1: "Movavi Grotesque Black";
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: rgb(65, 174, 231);
+  background: radial-gradient(
+    ellipse closest-side,
+    rgba(65, 174, 231, 1) 0%,
+    rgba(5, 75, 166, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+  
+/* Responsive rules */
+.bonuses {
+  background-image: url("@/assets/images/bonus.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.invite {
+  background-image: url("@/assets/images/invite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.button {
+  position: relative;
+  width: 121px;
+  height: 30px;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+  font-family: $font-family_1;
+  color: $color_2;
+  font-size: 0.83rem;
+  letter-spacing: -0.7px;
+  text-shadow: 0 0.7px 0 black;
+  -webkit-text-stroke: 0.5px black;
+  margin-bottom: 3px;
+}
