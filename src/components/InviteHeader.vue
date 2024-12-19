@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { defineProps } from "vue";
+import { defineProps } from 'vue'
 
 const props = defineProps<{
-  title: string;
-  title2: string;
-}>();
+  title: string
+  title2: string
+}>()
 
-props;
+props
 </script>
 
 <template>
@@ -19,8 +19,8 @@ props;
 <style scoped lang="scss">
 $color_1: #facb46;
 $color_2: #fff;
-$font-family_1: "Movavi Grotesque Black";
-$font-family_2: "Lato";
+$font-family_1: 'Movavi Grotesque Black';
+$font-family_2: 'Lato';
 
 .invite-header {
   padding-top: 65px;

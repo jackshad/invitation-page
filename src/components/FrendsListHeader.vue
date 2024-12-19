@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import { defineProps, defineEmits } from "vue";
+import { defineProps, defineEmits } from 'vue'
 
 const props = defineProps<{
-  title3: string;
-  btn: string;
-  amount: number;
-}>();
+  title3: string
+  btn: string
+  amount: number
+}>()
 
-props;
+props
 
 const emit = defineEmits<{
-  (e: "emitStatusOpenPopup"): void;
-}>();
+  (e: 'emitStatusOpenPopup'): void
+}>()
 </script>
 
 <template>
@@ -37,8 +37,8 @@ const emit = defineEmits<{
 
 <style scoped lang="scss">
 $color_2: #fff;
-$font-family_1: "Movavi Grotesque Black";
-$font-family_2: "Lato";
+$font-family_1: 'Movavi Grotesque Black';
+$font-family_2: 'Lato';
 
 .freinds-list-header {
   h4 {

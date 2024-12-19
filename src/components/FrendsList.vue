@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
-import store from "@/store";
+import { onMounted } from 'vue'
+import store from '@/store'
 
 onMounted(() => {
-  store.dispatch("getRandomUsers");
-});
+  store.dispatch('getRandomUsers')
+})
 </script>
 
 <template>
@@ -33,7 +33,7 @@ onMounted(() => {
 
 <style scoped lang="scss">
 $color_2: #fff;
-$font-family_2: "Lato";
+$font-family_2: 'Lato';
 $background-color_1: #15376c;
 
 .freinds-list {

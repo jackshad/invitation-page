@@ -1,27 +1,27 @@
 <script setup lang="ts">
-import { defineProps, defineExpose } from "vue";
-import { ref } from "vue";
+import { defineProps, defineExpose } from 'vue'
+import { ref } from 'vue'
 
 const props = defineProps<{
-  title4: string;
-  counter1: string;
-  counter2: string;
-  btn: string;
-  amount: number;
-}>();
-const isVisible = ref(false);
+  title4: string
+  counter1: string
+  counter2: string
+  btn: string
+  amount: number
+}>()
+const isVisible = ref(false)
 const open = () => {
-  isVisible.value = true;
-};
+  isVisible.value = true
+}
 const close = () => {
-  isVisible.value = false;
-};
+  isVisible.value = false
+}
 
 defineExpose({
   open,
-  close,
-});
-props;
+  close
+})
+props
 </script>
 
 <template>
@@ -71,9 +71,9 @@ props;
 <style scoped lang="scss">
 $color_1: #facb46;
 $color_2: #fff;
-$font-family_1: "Changa One";
-$font-family_2: "Lato";
-$font-family_3: "Movavi Grotesque Black";
+$font-family_1: 'Changa One';
+$font-family_2: 'Lato';
+$font-family_3: 'Movavi Grotesque Black';
 
 /* Popup dialog */
 .claime-popup {

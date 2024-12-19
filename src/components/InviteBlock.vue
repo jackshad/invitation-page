@@ -32,17 +32,17 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { Options, Vue } from 'vue-class-component'
 
 @Options({
   props: {
     btn: String,
-    btn2: String,
-  },
+    btn2: String
+  }
 })
 export default class InviteBlock extends Vue {
-  btn!: string;
-  btn2!: string;
+  btn!: string
+  btn2!: string
 }
 </script>
 
@@ -67,12 +67,12 @@ export default class InviteBlock extends Vue {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 .bonuses {
-  background-image: url("@/assets/images/bonus.png");
+  background-image: url('@/assets/images/bonus.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .invite {
-  background-image: url("@/assets/images/invite.png");
+  background-image: url('@/assets/images/invite.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
